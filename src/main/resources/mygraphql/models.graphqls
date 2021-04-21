@@ -1,0 +1,16 @@
+type SuperCharacter {
+  id: String!
+  name: String!
+  age: Int
+}
+
+#type with name Query is mandatory
+
+type Query {
+  characters: [SuperCharacter]!
+  characterById(id:String): SuperCharacter
+}
+
+type Mutation {
+   addCharacter(name:String age:Int): SuperCharacter
+}

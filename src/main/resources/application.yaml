@@ -1,0 +1,16 @@
+#graphql:
+#  servlet:
+#    mapping: /graphql2
+#    enabled: true
+#    corsEnabled: true
+#
+#graphiql:
+#  mapping: /graphiql
+#  endpoint: /graphql2
+#  enabled: true
+#  pageTitle: GraphiQL
+#  cdn:
+#      enabled: false
+#      version: 0.11.11
+
+spring.main.allow-bean-definition-overriding: true
